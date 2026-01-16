@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BetterTellerFallbackStageDef>
+    <defName>BetterTeller_Fallback_Safe</defName>
+    <label>safe</label>
+    <order>10</order>
+    <allowThreatBig>false</allowThreatBig>
+    <allowAny>true</allowAny>
+    <tags>
+      <li>Misc</li>
+      <li>Quest</li>
+    </tags>
+  </BetterTellerFallbackStageDef>
+  <BetterTellerFallbackStageDef>
+    <defName>BetterTeller_Fallback_Alternate</defName>
+    <label>alternate</label>
+    <order>20</order>
+    <allowThreatBig>false</allowThreatBig>
+    <allowAny>true</allowAny>
+    <tags>
+      <li>ThreatSmall</li>
+      <li>Disease</li>
+      <li>Misc</li>
+      <li>Quest</li>
+    </tags>
+  </BetterTellerFallbackStageDef>
+</Defs>

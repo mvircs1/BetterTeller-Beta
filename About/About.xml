@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>BetterTeller</name>
+  <author>mvircs1</author>
+  <packageId>marcos.betterteller</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Experimental storyteller AI with a custom decision pipeline.
+Macro mode selection, micro scoring, action masking, and learning are wired together.
+Includes debug overlay and telemetry dumps for tuning.</description>
+</ModMetaData>

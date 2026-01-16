@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BetterTeller.Settings.Category>BetterTeller</BetterTeller.Settings.Category>
+  <BetterTeller.Settings.Section.Presets>Presets</BetterTeller.Settings.Section.Presets>
+  <BetterTeller.Settings.Section.NewSystem>New system</BetterTeller.Settings.Section.NewSystem>
+  <BetterTeller.Settings.NewSystemAlwaysOn>New system is always active.</BetterTeller.Settings.NewSystemAlwaysOn>
+  <BetterTeller.Settings.Section.Rhythm>Rhythm</BetterTeller.Settings.Section.Rhythm>
+  <BetterTeller.Settings.Section.Macro>Macro pacing</BetterTeller.Settings.Section.Macro>
+  <BetterTeller.Settings.Section.Pools>Micro pool caps</BetterTeller.Settings.Section.Pools>
+  <BetterTeller.Settings.Section.Justice>Justice</BetterTeller.Settings.Section.Justice>
+  <BetterTeller.Settings.Section.Safety>Safety</BetterTeller.Settings.Section.Safety>
+  <BetterTeller.Settings.Section.Variety>Variety</BetterTeller.Settings.Section.Variety>
+  <BetterTeller.Settings.Section.Learning>Learning</BetterTeller.Settings.Section.Learning>
+  <BetterTeller.Settings.Section.BanditWeights>Bandit weights</BetterTeller.Settings.Section.BanditWeights>
+  <BetterTeller.Settings.Section.ThreatScaling>Threat scaling</BetterTeller.Settings.Section.ThreatScaling>
+  <BetterTeller.Settings.Section.Debug>Debug</BetterTeller.Settings.Section.Debug>
+  <BetterTeller.Settings.Section.Belief>Belief state</BetterTeller.Settings.Section.Belief>
+  <BetterTeller.Settings.Section.Pacing>Homeostatic pacing</BetterTeller.Settings.Section.Pacing>
+  <BetterTeller.Settings.Section.Micro>Micro selection</BetterTeller.Settings.Section.Micro>
+  <BetterTeller.Settings.Section.ThreatBudget>Threat budget</BetterTeller.Settings.Section.ThreatBudget>
+  <BetterTeller.Settings.Section.DynamicPrior>Dynamic prior</BetterTeller.Settings.Section.DynamicPrior>
+  <BetterTeller.Settings.Section.Telemetry>Telemetry</BetterTeller.Settings.Section.Telemetry>
+  <BetterTeller.Settings.Tab.General>General</BetterTeller.Settings.Tab.General>
+  <BetterTeller.Settings.Tab.Micro>Micro</BetterTeller.Settings.Tab.Micro>
+  <BetterTeller.Settings.Tab.Learning>Learning</BetterTeller.Settings.Tab.Learning>
+  <BetterTeller.Settings.Tab.Debug>Debug</BetterTeller.Settings.Tab.Debug>
+  <BetterTeller.Settings.Preset.Fair>Preset: Fair</BetterTeller.Settings.Preset.Fair>
+  <BetterTeller.Settings.Preset.Legacy>Preset: Legacy</BetterTeller.Settings.Preset.Legacy>
+  <BetterTeller.Settings.Preset.Cinematic>Preset: Cinematic</BetterTeller.Settings.Preset.Cinematic>
+  <BetterTeller.Settings.Preset.Chill>Preset: Chill</BetterTeller.Settings.Preset.Chill>
+  <BetterTeller.Settings.Preset.Chaotic>Preset: Chaotic</BetterTeller.Settings.Preset.Chaotic>
+  <BetterTeller.Settings.Preset.NewSystem>Preset: NewSystem</BetterTeller.Settings.Preset.NewSystem>
+  <BetterTeller.Settings.Preset.StressCpu>Preset: Stress_CPU</BetterTeller.Settings.Preset.StressCpu>
+  <BetterTeller.Settings.Preset.StressLogic>Preset: Stress_Logic</BetterTeller.Settings.Preset.StressLogic>
+  <BetterTeller.Settings.UseNewDirector>Use new director</BetterTeller.Settings.UseNewDirector>
+  <BetterTeller.Settings.UseTopKSelection>Use Top-K selection</BetterTeller.Settings.UseTopKSelection>
+  <BetterTeller.Settings.UseBeliefState>Use belief state</BetterTeller.Settings.UseBeliefState>
+  <BetterTeller.Settings.UseHomeostaticPacing>Use homeostatic pacing</BetterTeller.Settings.UseHomeostaticPacing>
+  <BetterTeller.Settings.BeliefAlpha>Belief alpha: {0}</BetterTeller.Settings.BeliefAlpha>
+  <BetterTeller.Settings.BeliefCacheTicks>Belief observation cache (ticks): {0}</BetterTeller.Settings.BeliefCacheTicks>
+  <BetterTeller.Settings.PacingStyle>Pacing style: {0}</BetterTeller.Settings.PacingStyle>
+  <BetterTeller.Settings.PacingAlpha>Pacing alpha: {0}</BetterTeller.Settings.PacingAlpha>
+  <BetterTeller.Settings.PacingDecayTicks>Pacing decay ticks: {0}</BetterTeller.Settings.PacingDecayTicks>
+  <BetterTeller.Settings.PacingRecoveryBlockThreshold>Pacing recovery block threshold: {0}</BetterTeller.Settings.PacingRecoveryBlockThreshold>
+  <BetterTeller.Settings.DecisionInterval>Decision interval (ticks): {0}</BetterTeller.Settings.DecisionInterval>
+  <BetterTeller.Settings.IncidentsPerDay>Target incidents/day: {0}</BetterTeller.Settings.IncidentsPerDay>
+  <BetterTeller.Settings.CrisisIncidentsPerDay>Target incidents/day (crisis): {0}</BetterTeller.Settings.CrisisIncidentsPerDay>
+  <BetterTeller.Settings.ModeMinPressure>Pressure min duration (ticks): {0}</BetterTeller.Settings.ModeMinPressure>
+  <BetterTeller.Settings.ModeMaxPressure>Pressure max duration (ticks): {0}</BetterTeller.Settings.ModeMaxPressure>
+  <BetterTeller.Settings.ModeMinRelief>Relief min duration (ticks): {0}</BetterTeller.Settings.ModeMinRelief>
+  <BetterTeller.Settings.ModeMaxRelief>Relief max duration (ticks): {0}</BetterTeller.Settings.ModeMaxRelief>
+  <BetterTeller.Settings.ModeMinQuest>Quest min duration (ticks): {0}</BetterTeller.Settings.ModeMinQuest>
+  <BetterTeller.Settings.ModeMaxQuest>Quest max duration (ticks): {0}</BetterTeller.Settings.ModeMaxQuest>
+  <BetterTeller.Settings.ModeMinVariety>Variety min duration (ticks): {0}</BetterTeller.Settings.ModeMinVariety>
+  <BetterTeller.Settings.ModeMaxVariety>Variety max duration (ticks): {0}</BetterTeller.Settings.ModeMaxVariety>
+  <BetterTeller.Settings.ModeMinChaos>Chaos min duration (ticks): {0}</BetterTeller.Settings.ModeMinChaos>
+  <BetterTeller.Settings.ModeMaxChaos>Chaos max duration (ticks): {0}</BetterTeller.Settings.ModeMaxChaos>
+  <BetterTeller.Settings.PoolCapPressure>Pool cap Pressure: {0}</BetterTeller.Settings.PoolCapPressure>
+  <BetterTeller.Settings.PoolCapRelief>Pool cap Relief: {0}</BetterTeller.Settings.PoolCapRelief>
+  <BetterTeller.Settings.PoolCapQuest>Pool cap Quest: {0}</BetterTeller.Settings.PoolCapQuest>
+  <BetterTeller.Settings.PoolCapVariety>Pool cap Variety: {0}</BetterTeller.Settings.PoolCapVariety>
+  <BetterTeller.Settings.PoolCapChaos>Pool cap Chaos: {0}</BetterTeller.Settings.PoolCapChaos>
+  <BetterTeller.Settings.PoolCapDebugBonus>Pool cap debug bonus: {0}</BetterTeller.Settings.PoolCapDebugBonus>
+  <BetterTeller.Settings.VarietyWindow>Variety window (recent): {0}</BetterTeller.Settings.VarietyWindow>
+  <BetterTeller.Settings.ThreatBudgetWindow>Threat budget window (ticks): {0}</BetterTeller.Settings.ThreatBudgetWindow>
+  <BetterTeller.Settings.ThreatBudgetMax>Max threats in window: {0}</BetterTeller.Settings.ThreatBudgetMax>
+  <BetterTeller.Settings.RecoveryLock>Recovery lock after ThreatBig (ticks): {0}</BetterTeller.Settings.RecoveryLock>
+  <BetterTeller.Settings.RewardWindow>Reward window (ticks): {0}</BetterTeller.Settings.RewardWindow>
+  <BetterTeller.Settings.RewardWindowMedium>Reward window (medium, ticks): {0}</BetterTeller.Settings.RewardWindowMedium>
+  <BetterTeller.Settings.LearningStrength>Learning strength: {0}</BetterTeller.Settings.LearningStrength>
+  <BetterTeller.Settings.BanditWeightPressure>Bandit weight Pressure: {0}</BetterTeller.Settings.BanditWeightPressure>
+  <BetterTeller.Settings.BanditWeightRelief>Bandit weight Relief: {0}</BetterTeller.Settings.BanditWeightRelief>
+  <BetterTeller.Settings.BanditWeightQuest>Bandit weight Quest: {0}</BetterTeller.Settings.BanditWeightQuest>
+  <BetterTeller.Settings.BanditWeightVariety>Bandit weight Variety: {0}</BetterTeller.Settings.BanditWeightVariety>
+  <BetterTeller.Settings.BanditWeightChaos>Bandit weight Chaos: {0}</BetterTeller.Settings.BanditWeightChaos>
+  <BetterTeller.Settings.AdaptiveLearningMin>Adaptive learning min: {0}</BetterTeller.Settings.AdaptiveLearningMin>
+  <BetterTeller.Settings.AdaptiveLearningMax>Adaptive learning max: {0}</BetterTeller.Settings.AdaptiveLearningMax>
+  <BetterTeller.Settings.DynamicPriorMaxDelta>Dynamic prior max delta: {0}</BetterTeller.Settings.DynamicPriorMaxDelta>
+  <BetterTeller.Settings.ContextDecayStart>Context decay start (ticks): {0}</BetterTeller.Settings.ContextDecayStart>
+  <BetterTeller.Settings.ContextDecayHalfLife>Context decay half-life (ticks): {0}</BetterTeller.Settings.ContextDecayHalfLife>
+  <BetterTeller.Settings.ExecutionAttempts>Execution attempts (fallback): {0}</BetterTeller.Settings.ExecutionAttempts>
+  <BetterTeller.Settings.ExecutionFailureThreshold>Execution failure threshold: {0}</BetterTeller.Settings.ExecutionFailureThreshold>
+  <BetterTeller.Settings.ExecutionFastFailMs>Execution fast-fail (ms): {0}</BetterTeller.Settings.ExecutionFastFailMs>
+  <BetterTeller.Settings.ExecutionBlacklistMin>Blacklist min duration (ticks): {0}</BetterTeller.Settings.ExecutionBlacklistMin>
+  <BetterTeller.Settings.ExecutionBlacklistMax>Blacklist max duration (ticks): {0}</BetterTeller.Settings.ExecutionBlacklistMax>
+  <BetterTeller.Settings.QuestFailureWindow>Quest failure window (ticks): {0}</BetterTeller.Settings.QuestFailureWindow>
+  <BetterTeller.Settings.QuestFailureThreshold>Quest failure threshold: {0}</BetterTeller.Settings.QuestFailureThreshold>
+  <BetterTeller.Settings.QuestSuppressTicks>Quest suppress duration (ticks): {0}</BetterTeller.Settings.QuestSuppressTicks>
+  <BetterTeller.Settings.ThreatModePressure>Mode pressure mult: {0}</BetterTeller.Settings.ThreatModePressure>
+  <BetterTeller.Settings.ThreatModeRelief>Mode relief mult: {0}</BetterTeller.Settings.ThreatModeRelief>
+  <BetterTeller.Settings.ThreatModeQuest>Mode quest mult: {0}</BetterTeller.Settings.ThreatModeQuest>
+  <BetterTeller.Settings.ThreatModeVariety>Mode variety mult: {0}</BetterTeller.Settings.ThreatModeVariety>
+  <BetterTeller.Settings.ThreatModeChaos>Mode chaos mult: {0}</BetterTeller.Settings.ThreatModeChaos>
+  <BetterTeller.Settings.ThreatTagSmall>ThreatSmall mult: {0}</BetterTeller.Settings.ThreatTagSmall>
+  <BetterTeller.Settings.ThreatTagBig>ThreatBig mult: {0}</BetterTeller.Settings.ThreatTagBig>
+  <BetterTeller.Settings.ThreatCrisisMult>Crisis mult: {0}</BetterTeller.Settings.ThreatCrisisMult>
+  <BetterTeller.Settings.ThreatHighRatioThreshold>High ratio threshold: {0}</BetterTeller.Settings.ThreatHighRatioThreshold>
+  <BetterTeller.Settings.ThreatHighRatioMult>High ratio mult: {0}</BetterTeller.Settings.ThreatHighRatioMult>
+  <BetterTeller.Settings.ThreatLowRatioThreshold>Low ratio threshold: {0}</BetterTeller.Settings.ThreatLowRatioThreshold>
+  <BetterTeller.Settings.ThreatLowRatioMult>Low ratio mult: {0}</BetterTeller.Settings.ThreatLowRatioMult>
+  <BetterTeller.Settings.ThreatClampMin>Threat clamp min: {0}</BetterTeller.Settings.ThreatClampMin>
+  <BetterTeller.Settings.ThreatClampMax>Threat clamp max: {0}</BetterTeller.Settings.ThreatClampMax>
+  <BetterTeller.Settings.VarietyLongWindow>Variety long window (ticks): {0}</BetterTeller.Settings.VarietyLongWindow>
+  <BetterTeller.Settings.VarietyLongHardLimit>Variety long hard limit: {0}</BetterTeller.Settings.VarietyLongHardLimit>
+  <BetterTeller.Settings.Cooldowns>Cooldown multipliers</BetterTeller.Settings.Cooldowns>
+  <BetterTeller.Settings.CooldownThreatBig>ThreatBig cooldown x{0}</BetterTeller.Settings.CooldownThreatBig>
+  <BetterTeller.Settings.CooldownThreatSmall>ThreatSmall cooldown x{0}</BetterTeller.Settings.CooldownThreatSmall>
+  <BetterTeller.Settings.CooldownDisease>Disease cooldown x{0}</BetterTeller.Settings.CooldownDisease>
+  <BetterTeller.Settings.CooldownQuest>Quest cooldown x{0}</BetterTeller.Settings.CooldownQuest>
+  <BetterTeller.Settings.CooldownMisc>Misc cooldown x{0}</BetterTeller.Settings.CooldownMisc>
+  <BetterTeller.Settings.EnableDebug>Enable debug logging</BetterTeller.Settings.EnableDebug>
+  <BetterTeller.Settings.EnableDebugDesc>Logs extra info to the RimWorld log.</BetterTeller.Settings.EnableDebugDesc>
+  <BetterTeller.Settings.EnableDebugOverlay>Enable debug overlay</BetterTeller.Settings.EnableDebugOverlay>
+  <BetterTeller.Settings.EnableDebugOverlayDesc>Shows the in-game debug overlay for BetterTeller.</BetterTeller.Settings.EnableDebugOverlayDesc>
+  <BetterTeller.Settings.DebugVerbose>Verbose debug details</BetterTeller.Settings.DebugVerbose>
+  <BetterTeller.Settings.DebugVerboseDesc>Includes full breakdowns and extra telemetry.</BetterTeller.Settings.DebugVerboseDesc>
+  <BetterTeller.Settings.DebugVerboseLocked>Verbose debug requires Dev Mode.</BetterTeller.Settings.DebugVerboseLocked>
+  <BetterTeller.Settings.StressTest>Stress test fast path</BetterTeller.Settings.StressTest>
+  <BetterTeller.Settings.StressTestDesc>Skips some non-critical mask rules to reduce CPU cost.</BetterTeller.Settings.StressTestDesc>
+  <BetterTeller.Settings.ProfilingBudget>Profiling budget (ms): {0}</BetterTeller.Settings.ProfilingBudget>
+  <BetterTeller.Settings.TelemetryMaxEntries>Telemetry max entries: {0}</BetterTeller.Settings.TelemetryMaxEntries>
+  <BetterTeller.Settings.TelemetryDumpLimit>Telemetry dump size: {0}</BetterTeller.Settings.TelemetryDumpLimit>
+  <BetterTeller.Settings.ClearTelemetry>Clear telemetry buffer</BetterTeller.Settings.ClearTelemetry>
+  <BetterTeller.Settings.EnableFileLog>Write debug log to file</BetterTeller.Settings.EnableFileLog>
+  <BetterTeller.Settings.EnableFileLogDesc>Writes BetterTeller debug output to a file for review.</BetterTeller.Settings.EnableFileLogDesc>
+  <BetterTeller.Settings.LogPath>Log file: {0}</BetterTeller.Settings.LogPath>
+  <BetterTeller.Settings.EnableLearning>Enable learning</BetterTeller.Settings.EnableLearning>
+  <BetterTeller.Settings.EnableLearningDesc>Allow the storyteller to update its internal stats.</BetterTeller.Settings.EnableLearningDesc>
+  <BetterTeller.Settings.ResetLearning>Reset learning</BetterTeller.Settings.ResetLearning>
+  <BetterTeller.Settings.DumpTelemetry>Dump telemetry to log</BetterTeller.Settings.DumpTelemetry>
+  <BetterTeller.Settings.DumpTelemetryCsv>Dump telemetry to CSV</BetterTeller.Settings.DumpTelemetryCsv>
+  <BetterTeller.Settings.DumpTelemetryJson>Dump telemetry to JSON</BetterTeller.Settings.DumpTelemetryJson>
+  <BetterTeller.Settings.Section.Crisis>Crisis thresholds</BetterTeller.Settings.Section.Crisis>
+  <BetterTeller.Settings.Section.Guardrails>Guardrails</BetterTeller.Settings.Section.Guardrails>
+  <BetterTeller.Settings.CrisisPopulationMax>Crisis population max: {0}</BetterTeller.Settings.CrisisPopulationMax>
+  <BetterTeller.Settings.CrisisWealthMax>Crisis wealth max: {0}</BetterTeller.Settings.CrisisWealthMax>
+  <BetterTeller.Settings.CrisisRecentThreats>Recent threats min for crisis: {0}</BetterTeller.Settings.CrisisRecentThreats>
+  <BetterTeller.Settings.CrisisFoodBucketMax>Crisis food bucket max (0-3): {0}</BetterTeller.Settings.CrisisFoodBucketMax>
+  <BetterTeller.Settings.CrisisInjuryBucketMin>Crisis injury bucket min (0-3): {0}</BetterTeller.Settings.CrisisInjuryBucketMin>
+  <BetterTeller.Settings.CrisisMoodBucketMin>Crisis mood bucket min (0-3): {0}</BetterTeller.Settings.CrisisMoodBucketMin>
+  <BetterTeller.Settings.DeathSpiralEnabled>Enable death spiral guardrail</BetterTeller.Settings.DeathSpiralEnabled>
+  <BetterTeller.Settings.DeathSpiralMinConditions>Death spiral min conditions: {0}</BetterTeller.Settings.DeathSpiralMinConditions>
+  <BetterTeller.Settings.DeathSpiralFoodBucketMax>Death spiral food bucket max (0-3): {0}</BetterTeller.Settings.DeathSpiralFoodBucketMax>
+  <BetterTeller.Settings.DeathSpiralInjuryBucketMin>Death spiral injury bucket min (0-3): {0}</BetterTeller.Settings.DeathSpiralInjuryBucketMin>
+  <BetterTeller.Settings.DeathSpiralMoodBucketMin>Death spiral mood bucket min (0-3): {0}</BetterTeller.Settings.DeathSpiralMoodBucketMin>
+  <BetterTeller.Settings.MicroTopKPick>Micro Top-K pick: {0}</BetterTeller.Settings.MicroTopKPick>
+  <BetterTeller.Settings.MicroTopCandidatesLimit>Micro top candidates limit: {0}</BetterTeller.Settings.MicroTopCandidatesLimit>
+  <BetterTeller.Settings.MicroTopKTemperature>Micro Top-K temperature: {0}</BetterTeller.Settings.MicroTopKTemperature>
+  <BetterTeller.Settings.BanditDisableInCrisis>Disable bandit in crisis</BetterTeller.Settings.BanditDisableInCrisis>
+  <BetterTeller.Settings.DynamicPriorCrisisPressurePenalty>Prior crisis pressure penalty: {0}</BetterTeller.Settings.DynamicPriorCrisisPressurePenalty>
+  <BetterTeller.Settings.DynamicPriorCrisisReliefBoost>Prior crisis relief boost: {0}</BetterTeller.Settings.DynamicPriorCrisisReliefBoost>
+  <BetterTeller.Settings.DynamicPriorRecentThreatsMin>Prior recent threats min: {0}</BetterTeller.Settings.DynamicPriorRecentThreatsMin>
+  <BetterTeller.Settings.DynamicPriorRecentThreatPressurePenalty>Prior recent threats pressure penalty: {0}</BetterTeller.Settings.DynamicPriorRecentThreatPressurePenalty>
+  <BetterTeller.Settings.DynamicPriorRecentThreatReliefBoost>Prior recent threats relief boost: {0}</BetterTeller.Settings.DynamicPriorRecentThreatReliefBoost>
+  <BetterTeller.Settings.DynamicPriorNoThreatsBoost>Prior no threats boost: {0}</BetterTeller.Settings.DynamicPriorNoThreatsBoost>
+  <BetterTeller.Settings.DynamicPriorModeStreakMin>Prior mode streak min: {0}</BetterTeller.Settings.DynamicPriorModeStreakMin>
+  <BetterTeller.Settings.DynamicPriorModeStreakPenalty>Prior mode streak penalty: {0}</BetterTeller.Settings.DynamicPriorModeStreakPenalty>
+  <BetterTeller.Settings.DynamicPriorLowEntropyPenalty>Prior low entropy penalty: {0}</BetterTeller.Settings.DynamicPriorLowEntropyPenalty>
+</LanguageData>

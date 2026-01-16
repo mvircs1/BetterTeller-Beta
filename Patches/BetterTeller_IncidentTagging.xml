@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/IncidentDef[defName="RaidEnemy"]/modExtensions</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/IncidentDef[defName="RaidEnemy"]/modExtensions</xpath>
+      <value>
+        <li Class="BetterTeller.RimWorldIntegration.IncidentCatalog.BetterTellerIncidentExtension">
+          <tagOverride>ThreatBig</tagOverride>
+          <cooldownTicks>90000</cooldownTicks>
+          <weight>1</weight>
+          <modeWeights>
+            <li>
+              <mode>Pressure</mode>
+              <multiplier>1.6</multiplier>
+            </li>
+            <li>
+              <mode>Relief</mode>
+              <multiplier>0.3</multiplier>
+            </li>
+          </modeWeights>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/IncidentDef[defName="RaidEnemy"]</xpath>
+      <value>
+        <modExtensions>
+          <li Class="BetterTeller.RimWorldIntegration.IncidentCatalog.BetterTellerIncidentExtension">
+            <tagOverride>ThreatBig</tagOverride>
+            <cooldownTicks>90000</cooldownTicks>
+            <weight>1</weight>
+            <modeWeights>
+              <li>
+                <mode>Pressure</mode>
+                <multiplier>1.6</multiplier>
+              </li>
+              <li>
+                <mode>Relief</mode>
+                <multiplier>0.3</multiplier>
+              </li>
+            </modeWeights>
+          </li>
+        </modExtensions>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/IncidentDef[defName="TraderCaravanArrival"]/modExtensions</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/IncidentDef[defName="TraderCaravanArrival"]/modExtensions</xpath>
+      <value>
+        <li Class="BetterTeller.RimWorldIntegration.IncidentCatalog.BetterTellerIncidentExtension">
+          <tagOverride>Misc</tagOverride>
+          <cooldownTicks>30000</cooldownTicks>
+          <weight>1</weight>
+          <modeWeights>
+            <li>
+              <mode>Relief</mode>
+              <multiplier>1.5</multiplier>
+            </li>
+            <li>
+              <mode>Pressure</mode>
+              <multiplier>0.6</multiplier>
+            </li>
+          </modeWeights>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/IncidentDef[defName="TraderCaravanArrival"]</xpath>
+      <value>
+        <modExtensions>
+          <li Class="BetterTeller.RimWorldIntegration.IncidentCatalog.BetterTellerIncidentExtension">
+            <tagOverride>Misc</tagOverride>
+            <cooldownTicks>30000</cooldownTicks>
+            <weight>1</weight>
+            <modeWeights>
+              <li>
+                <mode>Relief</mode>
+                <multiplier>1.5</multiplier>
+              </li>
+              <li>
+                <mode>Pressure</mode>
+                <multiplier>0.6</multiplier>
+              </li>
+            </modeWeights>
+          </li>
+        </modExtensions>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/IncidentDef[defName="WandererJoin"]/modExtensions</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/IncidentDef[defName="WandererJoin"]/modExtensions</xpath>
+      <value>
+        <li Class="BetterTeller.RimWorldIntegration.IncidentCatalog.BetterTellerIncidentExtension">
+          <tagOverride>Misc</tagOverride>
+          <cooldownTicks>60000</cooldownTicks>
+          <weight>1</weight>
+          <modeWeights>
+            <li>
+              <mode>Relief</mode>
+              <multiplier>1.2</multiplier>
+            </li>
+            <li>
+              <mode>Variety</mode>
+              <multiplier>1.2</multiplier>
+            </li>
+          </modeWeights>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/IncidentDef[defName="WandererJoin"]</xpath>
+      <value>
+        <modExtensions>
+          <li Class="BetterTeller.RimWorldIntegration.IncidentCatalog.BetterTellerIncidentExtension">
+            <tagOverride>Misc</tagOverride>
+            <cooldownTicks>60000</cooldownTicks>
+            <weight>1</weight>
+            <modeWeights>
+              <li>
+                <mode>Relief</mode>
+                <multiplier>1.2</multiplier>
+              </li>
+              <li>
+                <mode>Variety</mode>
+                <multiplier>1.2</multiplier>
+              </li>
+            </modeWeights>
+          </li>
+        </modExtensions>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>
