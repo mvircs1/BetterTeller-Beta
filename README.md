@@ -2,6 +2,7 @@
 
 BetterTeller is a custom storyteller AI for RimWorld that selects and schedules incidents
 using a director-style pipeline with macro/micro scoring, hard safety rules, and learning.
+AI roles: Brain = Contextual Bandit (Thompson Sampling), Director = Belief State + Homeostatic Pacing + Action Masking, Executor = Hierarchical Utility AI (Macro/Micro) + Top-K selection.
 
 ## Install (RimWorld)
 1) Copy the `mod` folder to `RimWorld/Mods/BetterTeller`.
